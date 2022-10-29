@@ -1,0 +1,4 @@
+diffusers==0.6.0
+ipython==8.5.0
+ipywebrtc==0.6.0
+whisper==1.0
