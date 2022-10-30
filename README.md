@@ -1,5 +1,17 @@
 # Open-source multi-lingual speech-to-image project
 
+## Objective:
+WHEREAS visual art is a foundational form of human self-expression;\
+AND WHEREAS speech is a foundational form of human self-expression;\
+AND WHEREAS not all persons are literate;\
+AND WHEREAS not all persons are sufficiently skilled or confident to generate visual art through traditional media;\
+AND WHEREAS not all persons are native English speakers;\
+AND WHEREAS the most powerful AI text-to-image generation models are based on exclusively English-language prompts;
+
+NOW, THEREFORE, this project intends to provide a means for all persons to generate visual art directly through their speech, without presumption or prejudice with regard to their native language or level of literacy.
+
+
+
 ## Pipeline:
 - Speech input to notebook: [`IPyWebRTC`](https://ipywebrtc.readthedocs.io/)
 - Spoken language detection: OpenAI's [`whisper`](https://github.com/openai/whisper)
