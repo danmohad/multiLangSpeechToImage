@@ -1,22 +1,25 @@
 # Open-source multi-lingual speech-to-image project
 
 ## Objective:
-WHEREAS visual art is a foundational form of human self-expression;\
-AND WHEREAS speech is a foundational form of human self-expression;\
-AND WHEREAS not all persons are literate;\
-AND WHEREAS not all persons are sufficiently skilled or confident to generate visual art through traditional media;\
-AND WHEREAS not all persons are native English speakers;\
-AND WHEREAS the most powerful AI text-to-image generation models are based on exclusively English-language prompts;
+Given that:
+- Visual art is a foundational form of human self-expression
+- Speech is the foundational form of human communication
+- Not everyone is literate
+- Not everyone is sufficiently skilled or confident to generate visual art through traditional or digital media
 
-NOW, THEREFORE, this project intends to provide a means for all persons to generate visual art directly through their speech, without presumption or prejudice with regard to their native language or level of literacy.
+And in particular:
+- Not everyone is a native English speaker
+- The most powerful AI text-to-image generation models are based on exclusively English-language prompts
 
-
+Therefore:
+- This project intends to provide a means for anyone to generate visual art directly through their speech, without presumption or prejudice with regard to their native language or level of literacy.
 
 ## Pipeline:
 - Speech input to notebook: [`IPyWebRTC`](https://ipywebrtc.readthedocs.io/)
 - Spoken language detection: OpenAI's [`whisper`](https://github.com/openai/whisper)
 - Speech-to-text (speech-to-English): OpenAI's [`whisper`](https://github.com/openai/whisper)
-- (English) text-to-image: Stability AI's [`stable-diffusion`](https://huggingface.co/CompVis/stable-diffusion) via [🤗 Diffusers](https://github.com/huggingface/diffusers)
+- (English) text-to-image: Stability AI's [`stable-diffusion`](https://huggingface.co/CompVis/stable-diffusion)
+  - Locally via [🤗 Diffusers](https://github.com/huggingface/diffusers), or through [DeepAI's API](https://deepai.org/machine-learning-model/stable-diffusion)
 
 ## Basic requirements:
 - Python v3.10.6
