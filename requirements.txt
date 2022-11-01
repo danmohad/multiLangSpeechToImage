@@ -1,3 +1,4 @@
+babel==2.10.3
 notebook==6.5.1
 diffusers==0.6.0
 ipython==8.5.0
